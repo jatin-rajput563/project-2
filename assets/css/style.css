@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+
+}
+
+section {
+    justify-content: center;
+    justify-items: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.container {
+    max-height: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.date {
+    align-items: center;
+    display: flex;
+
+}
+
+.location {
+    align-items: center;
+    display: flex;
+}
+
+.man {
+    align-items: center;
+    display: flex;
+
+}
+
+.card {
+    padding: 20px;
+    line-height: 36px;
+    box-shadow: 0px 8px 35px 0px #0000001A;
+    border-radius: 26px;
+}
+
+.card1 {
+    padding: 20px;
+    line-height: 36px;
+    border: 1px solid #00000033;
+    border-radius: 26px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.line {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+    padding: 20px;
+
+}
+
+button {
+    width: 134px;
+    height: 46px;
+    top: 491px;
+    left: 45px;
+    padding: 11px 28px 11px 28px;
+    gap: 10px;
+    border-radius: 23px;
+    opacity: 0px;
+    background-color: rgb(10, 69, 248);
+    color: rgb(237, 232, 231);
+
+}
+
+.date3 {
+    margin-left: 6px;
+    align-items: center;
+    color: gray;
+    
+}
+
+.date4 {
+    align-items: center;
+    margin-left: 6px;
+    color: gray;
+}
+
+.date5 {
+    align-items: center;
+    margin-left: 6px;
+    color: gray;
+}
+
+.name1 {
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: 600;
+
+}
+
+.img-2 {
+    border-radius: 26px;
+}
